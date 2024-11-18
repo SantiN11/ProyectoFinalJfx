@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="600.0" style="-fx-background-color: #0c6478;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.EmpleadoLoginView">
+   <children>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="44.0" prefHeight="123.0" prefWidth="434.0" text="  EMPLEADO" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Impact" size="76.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrar" layoutX="36.0" layoutY="290.0" mnemonicParsing="false" onAction="#RegistrarVehiculosAction" prefHeight="51.0" prefWidth="170.0" text="Registro/Compra" />
+      <Button fx:id="btnAlquilar" layoutX="302.0" layoutY="362.0" mnemonicParsing="false" onAction="#AlquilarVehiculosAction" prefHeight="51.0" prefWidth="170.0" text="Alquilar" />
+      <Button fx:id="btnVender" layoutX="400.0" layoutY="290.0" mnemonicParsing="false" onAction="#VenderVehiculosAction" prefHeight="51.0" prefWidth="170.0" text="Vender" />
+      <Separator layoutX="14.0" layoutY="204.0" prefHeight="35.0" prefWidth="575.0" />
+      <ImageView fitHeight="106.0" fitWidth="113.0" layoutX="464.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/empleado.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRegistroTransaccion" layoutX="121.0" layoutY="362.0" mnemonicParsing="false" onAction="#RegistrosAction" prefHeight="51.0" prefWidth="170.0" text="Registro transacciones" />
+      <Button fx:id="btnRegistrarCliente" layoutX="217.0" layoutY="290.0" mnemonicParsing="false" onAction="#RegistrarClienteAction" prefHeight="51.0" prefWidth="170.0" text="Registar Cliente" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="709.0" style="-fx-background-color: #0c6478;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.RegistrarVansLoginView">
+   <children>
+      <Label layoutX="232.0" layoutY="34.0" prefHeight="58.0" prefWidth="277.0" text="Registrar Vans" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="133.0" prefHeight="30.0" prefWidth="187.0" text="Marca: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMarca" layoutX="46.0" layoutY="163.0" />
+      <Label layoutX="310.0" layoutY="316.0" prefHeight="21.0" prefWidth="182.0" text="Nuevo O Usado:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="26.0" layoutY="92.0" prefHeight="17.0" prefWidth="674.0" />
+      <TextField fx:id="txtModelo" layoutX="47.0" layoutY="224.0" />
+      <Label layoutX="48.0" layoutY="194.0" prefHeight="30.0" prefWidth="187.0" text="Modelo: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCambios" layoutX="47.0" layoutY="285.0" />
+      <Label layoutX="48.0" layoutY="255.0" prefHeight="30.0" prefWidth="187.0" text="Cambios: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVelocidadMaxima" layoutX="48.0" layoutY="346.0" />
+      <Label layoutX="49.0" layoutY="316.0" prefHeight="30.0" prefWidth="187.0" text="Velocidad Max:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCilindraje" layoutX="49.0" layoutY="407.0" />
+      <Label layoutX="50.0" layoutY="377.0" prefHeight="30.0" prefWidth="187.0" text="Cilindraje:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumPasajeros" layoutX="50.0" layoutY="468.0" />
+      <Label layoutX="51.0" layoutY="438.0" prefHeight="30.0" prefWidth="187.0" text="Núm Pasajeros:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumPuertas" layoutX="51.0" layoutY="529.0" />
+      <Label layoutX="52.0" layoutY="499.0" prefHeight="30.0" prefWidth="187.0" text="Núm Puertas:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCapacidadMaletero" layoutX="51.0" layoutY="590.0" />
+      <Label layoutX="52.0" layoutY="560.0" prefHeight="30.0" prefWidth="187.0" text="Capacidad Maletero:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="378.0" prefHeight="21.0" prefWidth="182.0" text="Aire Acondicionado:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="301.0" layoutY="155.0" opacity="0.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label layoutX="310.0" layoutY="194.0" prefHeight="21.0" prefWidth="182.0" text="Cámara Reversa:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="133.0" prefHeight="21.0" prefWidth="182.0" text="Núm Bolsas Aire:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="255.0" prefHeight="21.0" prefWidth="182.0" text="ABS:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="438.0" prefHeight="21.0" prefWidth="182.0" text="Estado:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="499.0" prefHeight="21.0" prefWidth="182.0" text="Tipo Vinculo:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGuardar" blendMode="DIFFERENCE" layoutX="558.0" layoutY="324.0" mnemonicParsing="false" onAction="#GuardarAction" prefHeight="77.0" prefWidth="111.0" text="GUARDAR" />
+      <ComboBox fx:id="CamaraReveraCombo" layoutX="310.0" layoutY="224.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="ABSCombo" layoutX="310.0" layoutY="285.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="NuevoUsadoCombo" layoutX="310.0" layoutY="346.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="AireAcondicionadoCombo" layoutX="310.0" layoutY="407.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="EstadoCombo" layoutX="310.0" layoutY="468.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="TipoVinculoCombo" layoutX="310.0" layoutY="529.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="txtNumBolsasAire" layoutX="310.0" layoutY="163.0" />
+      <Button fx:id="btnRegresar" blendMode="DIFFERENCE" layoutX="26.0" layoutY="34.0" mnemonicParsing="false" onAction="#PaginaAnterior" text="&lt;- Regresar" />
+   </children>
+</AnchorPane>

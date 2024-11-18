@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="603.0" style="-fx-background-color: #0c6478;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.AdministradorLoginView">
+   <children>
+      <AnchorPane layoutX="2.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" layoutX="83.0" layoutY="90.0" prefHeight="123.0" prefWidth="434.0" text=" ADMINISTRADOR" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Impact" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnRegistrar" layoutX="41.0" layoutY="282.0" mnemonicParsing="false" onAction="#RegistrarVehiculosAction" prefHeight="51.0" prefWidth="240.0" text="Reportes" />
+            <Button fx:id="btnVender" layoutX="317.0" layoutY="282.0" mnemonicParsing="false" onAction="#VenderVehiculosAction" prefHeight="51.0" prefWidth="240.0" text="Registros y Gestión Empleados" />
+            <Label layoutX="194.0" layoutY="62.0" prefHeight="21.0" prefWidth="221.0" text="   Concesionario UQ" textOverrun="CLIP">
+               <font>
+                  <Font name="Cambria Math" size="24.0" />
+               </font>
+            </Label>
+            <Separator layoutX="14.0" layoutY="204.0" prefHeight="35.0" prefWidth="575.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

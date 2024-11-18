@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="662.0" style="-fx-background-color: #0c6478;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.RegistrarMotoLoginView">
+   <children>
+      <Label layoutX="220.0" layoutY="22.0" prefHeight="58.0" prefWidth="292.0" text="Registrar Moto" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="136.0" prefHeight="30.0" prefWidth="187.0" text="Marca: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMarca" layoutX="113.0" layoutY="164.0" />
+      <Label layoutX="359.0" layoutY="256.0" prefHeight="21.0" prefWidth="182.0" text="Nuevo O Usado:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="4.0" layoutY="87.0" prefHeight="17.0" prefWidth="655.0" />
+      <TextField fx:id="txtModelo" layoutX="113.0" layoutY="225.0" />
+      <Label layoutX="113.0" layoutY="197.0" prefHeight="30.0" prefWidth="187.0" text="Modelo: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCambios" layoutX="113.0" layoutY="286.0" />
+      <Label layoutX="113.0" layoutY="258.0" prefHeight="30.0" prefWidth="187.0" text="Cambios: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVelocidadMaxima" layoutX="113.0" layoutY="347.0" />
+      <Label layoutX="113.0" layoutY="317.0" prefHeight="30.0" prefWidth="187.0" text="Velocidad Max:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCilindraje" layoutX="113.0" layoutY="408.0" />
+      <Label layoutX="113.0" layoutY="378.0" prefHeight="30.0" prefWidth="187.0" text="Cilindraje:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="136.0" prefHeight="21.0" prefWidth="182.0" text="Estado:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="195.0" prefHeight="21.0" prefWidth="182.0" text="Tipo Vinculo:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGuardar" blendMode="DIFFERENCE" layoutX="403.0" layoutY="371.0" mnemonicParsing="false" onAction="#GuardarAction" prefHeight="45.0" prefWidth="94.0" text="GUARDAR" />
+      <ComboBox fx:id="NuevoUsadoCombo" layoutX="359.0" layoutY="286.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="EstadoCombo" layoutX="359.0" layoutY="164.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="TipoVinculoCombo" layoutX="359.0" layoutY="225.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button fx:id="btnRegresar" blendMode="DIFFERENCE" layoutX="27.0" layoutY="35.0" mnemonicParsing="false" onAction="#PaginaAnterior" text="&lt;- Regresar" />
+   </children>
+</AnchorPane>
